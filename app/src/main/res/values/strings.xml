@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">sample-crud</string>
+    <string name="string_first_name">First Name</string>
+    <string name="string_last_name">Last Name</string>
+    <string name="string_insert">Insert</string>
+    <string name="string_letter">r</string>
+    <string name="string_user_name">Rafael Akiyama</string>
+    <string name="string_id">10</string>
+    <string name="blank_field">\"This field can not be blank\"</string>
+    <string name="string_update">Update</string>
+    <string name="string_delete">Delete</string>
+    <string name="string_manage_user">Manage User</string>
+    <string name="string_ok">OK</string>
+    <string name="string_cancel">Cancel</string>
+    <string name="user_deleted">User Deleted</string>
+    <string name="string_user_updated">User Updated</string>
+</resources>
