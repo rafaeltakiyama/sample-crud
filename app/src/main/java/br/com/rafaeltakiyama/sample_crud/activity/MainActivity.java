@@ -111,26 +111,19 @@ public class MainActivity extends AppCompatActivity implements Delegate {
 
     private boolean validadeEdtTxt() {
 
-        boolean edtTxtFirstNameOk;
-        boolean edtTxtLastNameOk;
         String error = getResources().getString(R.string.blank_field);
-
 
         if (edtTxtFirstName.getText().toString().trim().equalsIgnoreCase("")) {
             edtTxtFirstName.setError(error);
-            edtTxtFirstNameOk = false;
-        } else {
-            edtTxtFirstNameOk = true;
+            return false;
         }
 
         if (edtTxtLastName.getText().toString().trim().equalsIgnoreCase("")) {
             edtTxtLastName.setError(error);
-            edtTxtLastNameOk = false;
-        } else {
-            edtTxtLastNameOk = true;
+            return false;
         }
 
-        return edtTxtFirstNameOk && edtTxtLastNameOk;
+        return true;
     }
 
     @Override
